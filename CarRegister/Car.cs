@@ -17,6 +17,9 @@ namespace CarRegister
 
         public Person Owner { get; set; }
 
+        [StringLength(20)]
+        public string Brand { get; set; }
+
         [Index(IsUnique=true)]
         [StringLength(6)]
         public string RegNo { get; set; }

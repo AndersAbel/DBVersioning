@@ -62,6 +62,10 @@
     <Compile Include="Migrations\201409081909263_Cars.Designer.cs">
       <DependentUpon>201409081909263_Cars.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201409081941540_CarBrand.cs" />
+    <Compile Include="Migrations\201409081941540_CarBrand.Designer.cs">
+      <DependentUpon>201409081941540_CarBrand.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
@@ -80,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201409081909263_Cars.resx">
       <DependentUpon>201409081909263_Cars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201409081941540_CarBrand.resx">
+      <DependentUpon>201409081941540_CarBrand.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
