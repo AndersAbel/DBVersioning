@@ -5,7 +5,9 @@
     [NoSeats] TINYINT       NOT NULL,
     [Owner]   INT           NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC),
-    CONSTRAINT [FK_Cars_OwnerPerson] FOREIGN KEY ([Owner]) REFERENCES [dbo].[Persons] ([Id])
+    CONSTRAINT [FK_Cars_OwnerPerson] FOREIGN KEY ([Owner]) REFERENCES [dbo].[Persons] ([Id]),
+	BrandId	  INT			NOT NULL
+	CONSTRAINT FK_Cars_Brands FOREIGN KEY REFERENCES Brands (Id)
 );
 
 
