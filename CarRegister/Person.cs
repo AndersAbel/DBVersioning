@@ -18,5 +18,7 @@ namespace CarRegister
         [StringLength(30)]
         [Required]
         public string LastName { get; set; }
+
+        public ICollection<Car> Cars { get; set; }
     }
 }

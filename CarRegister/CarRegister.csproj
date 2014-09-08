@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
     <Compile Include="CarRegisterContext.cs" />
     <Compile Include="Migrations\201409081833065_People.cs" />
     <Compile Include="Migrations\201409081833065_People.Designer.cs">
@@ -56,6 +57,10 @@
     <Compile Include="Migrations\201409081856065_PeopleColumnRules.cs" />
     <Compile Include="Migrations\201409081856065_PeopleColumnRules.Designer.cs">
       <DependentUpon>201409081856065_PeopleColumnRules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201409081909263_Cars.cs" />
+    <Compile Include="Migrations\201409081909263_Cars.Designer.cs">
+      <DependentUpon>201409081909263_Cars.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Person.cs" />
@@ -72,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201409081856065_PeopleColumnRules.resx">
       <DependentUpon>201409081856065_PeopleColumnRules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201409081909263_Cars.resx">
+      <DependentUpon>201409081909263_Cars.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
