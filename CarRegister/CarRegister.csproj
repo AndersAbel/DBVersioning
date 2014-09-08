@@ -53,6 +53,10 @@
     <Compile Include="Migrations\201409081833065_People.Designer.cs">
       <DependentUpon>201409081833065_People.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201409081856065_PeopleColumnRules.cs" />
+    <Compile Include="Migrations\201409081856065_PeopleColumnRules.Designer.cs">
+      <DependentUpon>201409081856065_PeopleColumnRules.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
@@ -65,6 +69,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201409081833065_People.resx">
       <DependentUpon>201409081833065_People.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201409081856065_PeopleColumnRules.resx">
+      <DependentUpon>201409081856065_PeopleColumnRules.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
