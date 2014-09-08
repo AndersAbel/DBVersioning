@@ -4,6 +4,7 @@
     [LastName]    NVARCHAR (20) NOT NULL,
     [Address]     NVARCHAR (50) NOT NULL,
     [PhoneNumber] VARCHAR (20)  NOT NULL,
+    [BirthYear]   INT           NULL
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
