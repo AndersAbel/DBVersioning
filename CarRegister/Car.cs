@@ -20,5 +20,8 @@ namespace CarRegister
         [Index(IsUnique=true)]
         [StringLength(6)]
         public string RegNo { get; set; }
+
+        [StringLength(10)]
+        public string Colour { get; set; }
     }
 }
