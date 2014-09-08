@@ -69,4 +69,7 @@
     <Build Include="Security\CarsTestUser.sql" />
     <Build Include="dbo\Tables\Brands.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Cars-Test.publish.xml" />
+  </ItemGroup>
 </Project>
